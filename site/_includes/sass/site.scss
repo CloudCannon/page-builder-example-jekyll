@@ -1,0 +1,23 @@
+* {
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    box-sizing: border-box;
+    text-rendering: geometricPrecision;
+}
+
+html {
+    scroll-behavior: smooth;
+    font-size: 10px;
+}
+
+html,
+body {
+    --content-font: "Helvetica Neue", "Helvetica", "Arial";
+    --component-padding: 100px;
+    position: relative;
+    margin: 0;
+    font-family: var(--content-font);
+    overflow-x: hidden;
+    -webkit-overflow-scrolling: touch;
+}
