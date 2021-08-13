@@ -43,8 +43,12 @@ GEM
       rouge (~> 3.0)
       safe_yaml (~> 1.0)
       terminal-table (~> 2.0)
+    jekyll-archives (2.2.1)
+      jekyll (>= 3.6, < 5.0)
     jekyll-bookshop (2.0.0.pre.beta.11)
       dry-inflector (>= 0.1, < 1.0)
+      jekyll (>= 3.7, < 5.0)
+    jekyll-feed (0.15.1)
       jekyll (>= 3.7, < 5.0)
     jekyll-postcss-v2 (1.0.1)
     jekyll-sass-converter (2.1.0)
@@ -81,7 +85,9 @@ PLATFORMS
 
 DEPENDENCIES
   cloudcannon-jekyll-bookshop (= 2.0.0.pre.beta.11)
+  jekyll-archives (~> 2.2.1)
   jekyll-bookshop (= 2.0.0.pre.beta.11)
+  jekyll-feed (~> 0.15.1)
   jekyll-postcss-v2
   jekyll-watch!
 

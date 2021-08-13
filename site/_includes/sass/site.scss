@@ -1,3 +1,4 @@
+
 * {
     -moz-osx-font-smoothing: grayscale;
     -webkit-font-smoothing: antialiased;
@@ -13,11 +14,14 @@ html {
 
 html,
 body {
-    --content-font: "Helvetica Neue", "Helvetica", "Arial";
+    --font: var(--body-font), "Helvetica Neue", "Helvetica", "Arial";
+    --headings-fonts: var(--headings-font), "Helvetica Neue", "Helvetica", "Arial";
     --component-padding: 100px;
+    --navigation-offset: 70px;
     position: relative;
     margin: 0;
-    font-family: var(--content-font);
+    font-family: var(--font);
+    color: var(--text-color);
     overflow-x: hidden;
     -webkit-overflow-scrolling: touch;
 }
