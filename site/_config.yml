@@ -56,6 +56,18 @@ _array_structures:
     # This is auto-populated by the bookshop-array-structures plugin.
 
 _select_data:
+  fonts:
+    - "Arial"
+    - "Verdana"
+    - "Helvetica"
+    - "Tahoma"
+    - "Trebuchet MS"
+    - "Times New Roman"
+    - "Georgia"
+    - "Garamond"
+    - "Courier New"
+    - "Brush Script MT"
+
 
 _comments:
 

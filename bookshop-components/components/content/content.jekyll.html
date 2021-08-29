@@ -1,6 +1,12 @@
 <div class="{{c}}__inner-wrapper
             component">
-    <div class="{{c}}__content-wrapper">
+    <div class="{{c}}__content-wrapper"
+         style="{% if include.font %}
+                    font-family: '{{ include.font }}';
+                {% endif %}
+                {% if include.text_color %}
+                    color: {{ include.text_color }};
+                {% endif %}">
         {{ include.content_html }}
     </div>
 </div>

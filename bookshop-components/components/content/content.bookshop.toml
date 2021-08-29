@@ -7,3 +7,5 @@ tags = ["Text"]
 
 [props]
 content_html = "<p>This is a <b>testing template</b> made with the <a href='https://github.com/cloudcannon/bookshop' target='_blank'>bookshop component system.</a></p>"
+text_color = "#222222"
+font = "Arial"
