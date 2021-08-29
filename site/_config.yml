@@ -2,6 +2,7 @@
 # Jekyll Configuration
 ####
 collections_dir: 'collections'
+data_dir: _website_settings
 permalink: pretty
 
 plugins:

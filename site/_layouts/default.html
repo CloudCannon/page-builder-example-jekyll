@@ -4,6 +4,7 @@
 <body>
     <div class="body-wrapper">
         {% include navigation.html %}
+        <h1 class="site-heading">{{ site.data.general_settings.website_title }}</h1>
         <!-- 
             A data-bookshop-live enables live editing previews in CloudCannon.
             To enable live previews of new components, we render all components
@@ -25,6 +26,10 @@
             {% bookshop page content_blocks=page.content_blocks page_theme=page.page_theme %}
         </div>
         {{ content }}
+
+        <a class="cms-editor-link
+                  cms-add-component-button" 
+             data-cms-editor-link="cloudcannon:#content_blocks">Add Components</a>
 
         {% include footer.html %}
 
