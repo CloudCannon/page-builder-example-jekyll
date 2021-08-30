@@ -74,9 +74,9 @@ body {
 
 .cms-editor-active {
     .cms-add-component-button {
-        display: block;
+        display: inline-block;
     }
-    
+
     .cms-editor-link {
         position: relative;
         outline: unset !important;
