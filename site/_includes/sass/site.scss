@@ -49,6 +49,7 @@ body {
 // CMS Styles
 
 .cms-add-component-button {
+    display: none;
     margin-top: 10px;
     padding: 12px 20px;
     width: auto;
@@ -72,6 +73,10 @@ body {
 }
 
 .cms-editor-active {
+    .cms-add-component-button {
+        display: block;
+    }
+    
     .cms-editor-link {
         position: relative;
         outline: unset !important;
