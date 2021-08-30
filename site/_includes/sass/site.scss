@@ -21,6 +21,10 @@ body {
     overflow-x: hidden;
     -webkit-overflow-scrolling: touch;
     background-color: #eeeeee;
+
+    img {
+        max-width: 100%;
+    }
 }
 
 .body-wrapper {
@@ -37,6 +41,11 @@ body {
 .site-heading {
     text-align: center;
 }
+
+.component-wrapper {
+    padding: 25px 0;
+}
+
 // CMS Styles
 
 .cms-add-component-button {

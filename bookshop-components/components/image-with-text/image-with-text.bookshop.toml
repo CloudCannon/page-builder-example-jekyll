@@ -1,0 +1,12 @@
+[component]
+array_structures = [ "content_blocks" ]
+label = "Image with Text"
+description = "A two column image and rich text block"
+icon = "wysiwyg"
+tags = ["Text"]
+
+[props]
+image_position = "Left"
+image = "https://source.unsplash.com/random/1500x1146"
+image_seo_description = "Lorem ipsum dolor sit amet"
+content_html = "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent non placerat urna, non placerat lacus. Proin tincidunt mattis elit, feugiat finibus nunc accumsan vel. Etiam vel fermentum odio, sit amet ullamcorper tortor. Suspendisse quis aliquam velit, in vestibulum libero. Nullam et lorem tempor, ullamcorper arcu eu, mattis lorem. Etiam viverra odio non tristique viverra. Pellentesque eget orci in nunc dapibus tristique. Integer aliquet felis ligula, in vehicula augue egestas non. Quisque hendrerit odio ut porttitor fermentum. Maecenas id egestas tellus. Cras facilisis elit non viverra volutpat. Integer iaculis dui urna, ut mattis lectus vehicula quis. Suspendisse molestie est quis elementum imperdiet. Donec luctus vehicula ante ut pretium. Ut in dignissim nibh.</p>"
