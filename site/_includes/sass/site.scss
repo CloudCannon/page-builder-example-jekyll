@@ -40,6 +40,7 @@ body {
 // CMS Styles
 
 .cms-add-component-button {
+    margin-top: 25px;
     padding: 12px 20px;
     width: auto;
     border-radius: 4px;
@@ -51,6 +52,14 @@ body {
     font-size: 16px;
     color: #222222;
     cursor: pointer;
+
+    &:after {
+        display: none;
+    }
+
+    &:hover {
+        background-color: #eaeaea;
+    }
 }
 
 .cms-editor-active {
@@ -86,8 +95,7 @@ body {
             }
 
             &:hover {
-                &:after {
-                    border: 2px solid #707070;
+                &:after {5
                 }
             }
         }
