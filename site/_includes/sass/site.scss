@@ -40,7 +40,7 @@ body {
 // CMS Styles
 
 .cms-add-component-button {
-    margin-top: 25px;
+    margin-top: 10px;
     padding: 12px 20px;
     width: auto;
     border-radius: 4px;
@@ -95,7 +95,8 @@ body {
             }
 
             &:hover {
-                &:after {5
+                &:after {
+                    border: 2px solid #707070;
                 }
             }
         }
