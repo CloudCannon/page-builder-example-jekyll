@@ -46,7 +46,11 @@ body {
     padding: 25px 0;
 }
 
-// CMS Styles
+
+
+  ////////////////
+ // CMS Styles //
+////////////////
 
 .cms-add-component-button {
     display: none;
@@ -140,7 +144,6 @@ body {
                 pointer-events: all;
 
                 &:after {
-
                     opacity: 1;
                 }
             }

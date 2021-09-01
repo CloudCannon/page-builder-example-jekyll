@@ -1,6 +1,4 @@
-####
 # Jekyll Configuration
-####
 collections_dir: 'collections'
 data_dir: _website_settings
 permalink: pretty
@@ -32,22 +30,16 @@ collections:
     _singular_name: 'Staff Member'
     _slug: 'staff_members'
     output: false
-####
 
 
-####
+
 # Bookshop Configuration
-####
 bookshop_locations:
   - ../bookshop-components
   - ../bookshop-components/components
-####
 
 
 
-
-
-####
 # CloudCannon Configuration
 ####
 
