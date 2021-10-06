@@ -3,16 +3,16 @@ collections_dir: 'collections'
 data_dir: _website_settings
 permalink: pretty
 
+source: site
+
 plugins:
   - jekyll-bookshop
   - cloudcannon-jekyll-bookshop
-  - jekyll-postcss-v2
 
 include:
   - _cloudcannon
   
 exclude:
-  - postcss.config.js
   - node_modules
 
 collections:
@@ -31,14 +31,9 @@ collections:
     _slug: 'staff_members'
     output: false
 
-
-
 # Bookshop Configuration
 bookshop_locations:
-  - ../bookshop-components
-  - ../bookshop-components/components
-
-
+  - ../component-library
 
 # CloudCannon Configuration
 ####
