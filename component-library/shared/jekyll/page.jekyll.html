@@ -4,16 +4,12 @@
     {% for block in include.content_blocks %}
         {% assign c = block._bookshop_name | prepend: 'c-' %}
         <div class="{{c}}
-                    cms-editor-link 
                     component-wrapper
                     {% if block._alt %}
                     component-wrapper--alt
                     {% elsif block._branded %}
                     component-wrapper--branded
-                    {% endif %}" 
-             data-cms-editor-link="cloudcannon:#content_blocks[{{ forloop.index0 }}]">
-             <span class="cms-editor-button"></span>
-            
+                    {% endif %}">
             {% bookshop {{block._bookshop_name}} bind=block %}
         </div>
     {% endfor %}
